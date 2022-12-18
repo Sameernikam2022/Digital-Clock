@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images.jpg");
+     background-position:center;
+    background-size: cover;  
+    height: 100vh;
+}
+h2{
+    font-size: 3rem;
+    letter-spacing: 10px;
+    color:black;
+}
+.worldclock{
+    display: flex;
+  
+    
+}
+.worldclock div{
+    position: relative;
+    margin: 10px;
+    border-radius: 0.5px;
+}
+.worldclock span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    width: 180px;
+    background-color: white;
+    font-size: 9rem;
+    color: red;
+    border-radius: 5rem;
+    
+    
+}
+
+.worldclock .text{
+    font-size: 35px;
+    background-color: yellow;
+    height: 50px;
+    color: black;
+    
+    /* text-align: center; */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+   
+}
+.worldclock #ampm{
+    font-size: 45px;
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    color:black;
+    background-color: red;
+}
